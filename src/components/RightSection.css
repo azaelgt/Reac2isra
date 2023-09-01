@@ -1,0 +1,60 @@
+.right-section {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 20px;
+  }
+  
+  .person-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(25% - 20px);
+    margin: 10px;
+    transition: transform 0.2s;
+    animation: fadeInUp 0.5s ease;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .person-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .person-card img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .person-card h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .person-card p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #888;
+  }
+  
+  /* Estilo para el botón "Agregar al Equipo" similar al botón de la tarjeta izquierda */
+  .person-card button {
+    background-color: #ff6b6b;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .person-card button:hover {
+    background-color: #e05252;
+  }
+  

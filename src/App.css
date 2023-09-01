@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-section {
+  width: 30%; 
+}
+
+.right-section {
+  width: 65%; 
+}
